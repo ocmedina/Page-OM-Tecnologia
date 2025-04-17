@@ -1,0 +1,36 @@
+<svg width="280" height="100" viewBox="0 0 280 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600;700&display=swap');
+    .brand { font-family: 'Kanit', sans-serif; font-weight: 700; }
+    .om { fill: #0055FF; font-size: 46px; letter-spacing: -1px; }
+    .tecno { fill: #222; font-size: 34px; letter-spacing: 1px; }
+    .tagline { font-family: 'Kanit', sans-serif; font-size: 12px; fill: #777; letter-spacing: 2px; text-transform: uppercase; }
+  </style>
+  
+  <!-- Chip futurista -->
+  <rect x="10" y="25" width="60" height="60" rx="3" fill="none" stroke="#0055FF" stroke-width="2.5"/>
+  
+  <!-- Circuitos internos abstractos -->
+  <path d="M20,35 L50,65 M20,50 L50,50 M20,65 L50,35" 
+        stroke="#00AAFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Puntos de conexión holográficos -->
+  <circle cx="35" cy="35" r="4" fill="#0055FF" opacity="0.8">
+    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="35" cy="65" r="4" fill="#FF5500" opacity="0.8">
+    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  
+  <!-- Texto principal con efecto corte láser -->
+  <text x="85" y="55" class="brand om">OM</text>
+  <text x="130" y="55" class="brand tecno">TECH</text>
+  
+  <!-- Línea de conexión dinámica -->
+  <line x1="85" y1="60" x2="200" y2="60" stroke="#00AAFF" stroke-width="2" stroke-dasharray="10,3">
+    <animate attributeName="stroke-dashoffset" values="0;20;0" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Tagline futurista -->
+  <text x="85" y="80" class="tagline">TECHNOLOGY SOLUTIONS | SINCE 2023</text>
+</svg>
