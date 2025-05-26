@@ -367,9 +367,6 @@ section {
   height: 10px;
 }
 
-.service-card.highlighted {
-  border: 2px solid var(--primary-color);
-}
 
 .service-icon {
   font-size: 2.5rem;
